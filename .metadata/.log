@@ -1,0 +1,32 @@
+!SESSION 2023-05-06 19:35:18.974 -----------------------------------------------
+eclipse.buildId=Version 1.12.1
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -keyring /Users/PedroVitorPereira/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/PedroVitorPereira/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-05-06 19:35:59.543
+!MESSAGE Log4j2 initialized with config file /Users/PedroVitorPereira/Documents/GitHub/Mastering Microncontroller and Embedded Driver Development/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-05-06 19:36:04.198
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-05-06 19:36:12.848
+!MESSAGE ProjectImporter: already registered
+!SESSION 2023-05-06 19:40:08.260 -----------------------------------------------
+eclipse.buildId=Version 1.12.1
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -keyring /Users/PedroVitorPereira/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/PedroVitorPereira/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-05-06 19:42:29.986
+!MESSAGE Log4j2 initialized with config file /Users/PedroVitorPereira/Documents/GitHub/Mastering Microncontroller and Embedded Driver Development/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-05-06 19:42:34.802
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-06 19:47:09.150
+!MESSAGE Indexed 'Blinking Led' (24 sources, 85 headers) in 9.66 sec: 7,690 declarations; 55,103 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0032%)
