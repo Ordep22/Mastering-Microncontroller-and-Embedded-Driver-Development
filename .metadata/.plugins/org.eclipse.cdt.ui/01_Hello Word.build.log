@@ -1,0 +1,10 @@
+18:14:52 **** Incremental Build of configuration Debug for project 01_Hello Word ****
+make -j3 all 
+arm-none-eabi-size   01_Hello\ Word.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5448	    108	   1588	   7144	   1be8	01_Hello Word.elf
+Finished building: default.size.stdout
+ 
+
+18:14:52 Build Finished. 0 errors, 0 warnings. (took 220ms)
+

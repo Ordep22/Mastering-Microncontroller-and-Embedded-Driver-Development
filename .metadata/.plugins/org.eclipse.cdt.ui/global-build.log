@@ -1,0 +1,45 @@
+18:08:28 **** Build of configuration Debug for project 01_Hello Word ****
+make -j3 all 
+arm-none-eabi-gcc -mcpu=cortex-m7 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32h743zitx.d" -MT"Startup/startup_stm32h743zitx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32h743zitx.o" "../Startup/startup_stm32h743zitx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DSTM32H743ZITx -DSTM32 -DSTM32H7SINGLE -DSTM32H7 -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DSTM32H743ZITx -DSTM32 -DSTM32H7SINGLE -DSTM32H7 -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DSTM32H743ZITx -DSTM32 -DSTM32H7SINGLE -DSTM32H7 -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "01_Hello Word.elf" @"objects.list"   -mcpu=cortex-m7 -T"/Users/PedroVitorPereira/Documents/GitHub/Mastering Microncontroller and Embedded Driver Development/01_Hello Word/STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="01_Hello Word.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 01_Hello Word.elf
+ 
+arm-none-eabi-size   01_Hello\ Word.elf 
+arm-none-eabi-objdump -h -S  01_Hello\ Word.elf  > "01_Hello Word.list"
+   text	   data	    bss	    dec	    hex	filename
+    916	      8	   1568	   2492	    9bc	01_Hello Word.elf
+Finished building: default.size.stdout
+ 
+Finished building: 01_Hello Word.list
+ 
+18:12:57 **** Incremental Build of configuration Debug for project 01_Hello Word ****
+make -j3 all 
+arm-none-eabi-size   01_Hello\ Word.elf 
+   text	   data	    bss	    dec	    hex	filename
+    916	      8	   1568	   2492	    9bc	01_Hello Word.elf
+Finished building: default.size.stdout
+ 
+18:14:46 **** Incremental Build of configuration Debug for project 01_Hello Word ****
+make -j3 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DSTM32H743ZITx -DSTM32 -DSTM32H7SINGLE -DSTM32H7 -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "01_Hello Word.elf" @"objects.list"   -mcpu=cortex-m7 -T"/Users/PedroVitorPereira/Documents/GitHub/Mastering Microncontroller and Embedded Driver Development/01_Hello Word/STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="01_Hello Word.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 01_Hello Word.elf
+ 
+arm-none-eabi-size   01_Hello\ Word.elf 
+arm-none-eabi-objdump -h -S  01_Hello\ Word.elf  > "01_Hello Word.list"
+   text	   data	    bss	    dec	    hex	filename
+   5448	    108	   1588	   7144	   1be8	01_Hello Word.elf
+Finished building: default.size.stdout
+ 
+Finished building: 01_Hello Word.list
+ 
+18:14:52 **** Incremental Build of configuration Debug for project 01_Hello Word ****
+make -j3 all 
+arm-none-eabi-size   01_Hello\ Word.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5448	    108	   1588	   7144	   1be8	01_Hello Word.elf
+Finished building: default.size.stdout
+ 

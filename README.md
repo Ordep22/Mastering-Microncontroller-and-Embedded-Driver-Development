@@ -1,44 +1,38 @@
-<br>
-#IN CONSTRUCTION
-<img align="left" width="90" height="90" src="https://raw.githubusercontent.com/Ordep22/Course-of-data-science/c6dfd9bf6130a8dcd6b1a5cf8140c905b424f14e/Images/python.svg">
-<p vertical-align="middle"><h1>Course of Data Science with Python</h1></p>
 
+<img align="left" width="90" height="90" src="Images/STM32Logo.png">
+<p vertical-align="middle"><h1>Mastering-Microncontroller-and-Embedded-Driver-Development</h1></p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)&nbsp;&nbsp;
-![Chat GPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)&nbsp;&nbsp;![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)&nbsp;&nbsp;![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)&nbsp;&nbsp;![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)&nbsp;&nbsp;![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+&nbsp;&nbsp;<hr>
 
-<br>
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)&nbsp;&nbsp;
+
+
+<hr>
 
 Hi.&nbsp;👋🏻 &nbsp;**Well come.**&nbsp;
+<br>
+
+Welcome to the repository for the "Mastering Microcontroller and Embedded Driver Development" project! This repository serves as a centralized hub for all the code, examples, and resources related to the course.
 
 <br>
 
-Welcome to the Data Science with Python course offered by the [Data Science Academy](https://www.datascienceacademy.com.br). This repository contains the material and resources needed for the course. Here you will find lessons, exercises and practical projects to help you learn and apply the fundamental concepts of Data Science using the Python programming language.
+### 📚 Content
+<hr>
 
-<br>
+1. Notes and Informations ✅
 
-**The course is divided into several sections, covering the following main contents:**
+2. Development board used in our courses ✅
 
-1. Introduction ✅
+3. Hardware/Software Requirements ✅
 
-2. Getting Started with the Python Language - Overview, Installations, and GPT Chat ✅
+4. IDE installation ✅
 
-3. Introductory level Python language - introduction to programming logic ✅
+5. Creating a project using STM32CUBEIDE ⏳
+ 
 
-4. Introductory level Python language - variables, data types and structures ✅
+### 💻  Technologies
+<hr>
 
-5. Introductory level Python language - Loops, Conditionals, Methods, Packages and Functions ✅
+• STM32CubeIDE
 
-6. Introductory level Python language - File handling, methods, packages and built-in functions ✅
 
-7. Project one and evaluation one ✅
-
-8. Basic Level Python Language - Introduction to Object Oriented Programming 🚶🏼🚶🏼
-
-...next chapters &nbsp;⚙️ &nbsp; 
-
-⚠️ &nbsp;&nbsp;Install Python (version 3.7 or higher) on your machine.  
-
-## Course of Data Science Track License
-
-This repository uses the [MIT License](/LICENSE).
